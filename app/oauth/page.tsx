@@ -2,7 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { social } from "../layout";
+import {social} from "../layout";
 import { fromCognitoIdentityPool } from "@aws-sdk/credential-providers";
 import { DecryptCommand, EncryptCommand, KMSClient } from "@aws-sdk/client-kms";
 import { STSClient, GetCallerIdentityCommand } from "@aws-sdk/client-sts";
